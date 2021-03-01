@@ -1,20 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>WEB1 - html</title>
-  <meta charset="utf-8">
+	<style>
+	.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+	}
+	</style>
+	<title> simple html project </title>
+	<meta charset="utf-8">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-
-<h1>CSS</h1>
-<p>
-  Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
-</p>
+	<h1> Hello world! </h1>
+	<div class="myDiv">
+		<p> This is some text in div element </p>
+	</div>
+	<p> This is a hyperlink to google.com <a href="https://www.google.com"> Click here and visit google! </a>	</p>
+	<p> Insert image "potatoSmile.png" </p>
+	<img src="potatoSmile.png" alt="potato smile image" width="400" height="400">
+	<p> I will use span tag to emphasize text like this. <span style="color:blue">You can emphasize texts with span tag</span></p>
+	<p> You can also emphasize texts using <strong> strong tags like this </strong></p>
+	<p> <i> If you use <strong>i</strong> tag, texts will look like this </i></p>
+	<p> You can also make list with li tag </p>
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+	<p> and can make new lines with br tag.<br> Can force line breaks<br> with br tag </p>
+	<button type="button">Click me!</button>
 
 </body>
 </html>
